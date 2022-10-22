@@ -444,8 +444,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334340070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.5, y: 2.55, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.59, z: 1.5}
+  m_LocalPosition: {x: 8.76, y: 1.32, z: 0}
+  m_LocalScale: {x: 0.75644624, y: 0.801833, z: 0.75644624}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -699,6 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -14936,8 +14937,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -52.89, y: 157.68}
-  m_SizeDelta: {x: 375.74, y: 302.9}
+  m_AnchoredPosition: {x: -46, y: 171}
+  m_SizeDelta: {x: 492.5923, y: 302.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1679891744
 MonoBehaviour:

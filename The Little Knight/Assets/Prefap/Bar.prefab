@@ -201,7 +201,6 @@ GameObject:
   - component: {fileID: 2922256538537584543}
   - component: {fileID: 8319455902994235804}
   - component: {fileID: 6343117344282906844}
-  - component: {fileID: 1594822472}
   - component: {fileID: 1594822476}
   m_Layer: 5
   m_Name: Bar
@@ -274,7 +273,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &6343117344282906844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,32 +291,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!61 &1594822472
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2061392134540845411}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 349.53, y: -354.5}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0625, y: 1.1666666}
-    newSize: {x: 1.0625, y: 1.1666666}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 114.82, y: 184.1}
-  m_EdgeRadius: 0
 --- !u!82 &1594822476
 AudioSource:
   m_ObjectHideFlags: 0
@@ -448,11 +421,11 @@ RectTransform:
   m_Father: {fileID: 6433446039485411536}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -764.29, y: 374.2}
-  m_SizeDelta: {x: 32.6, y: 3.8}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80.30005, y: -48.19995}
+  m_SizeDelta: {x: 87.599976, y: 8.599976}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &6729462085412789456
 MonoBehaviour:
   m_ObjectHideFlags: 0

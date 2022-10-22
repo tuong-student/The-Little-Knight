@@ -129,7 +129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 60.900024, y: -161.5}
+  m_AnchoredPosition: {x: 95.26001, y: -130}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5258428134403704231
@@ -381,7 +381,6 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
-  timer: {fileID: 0}
   timerSlider: {fileID: 6729462084717893000}
 --- !u!114 &8474622676398747910
 MonoBehaviour:
@@ -775,11 +774,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2830532280059829659, guid: 99d5ad8b5e5778042b7ae091f80a9eb1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 317.90002
+      value: 95.26001
       objectReference: {fileID: 0}
     - target: {fileID: 2830532280059829659, guid: 99d5ad8b5e5778042b7ae091f80a9eb1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -161.5
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 4234801648318384387, guid: 99d5ad8b5e5778042b7ae091f80a9eb1, type: 3}
       propertyPath: m_AnchorMax.x
@@ -913,11 +912,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2830532280059829659, guid: 99d5ad8b5e5778042b7ae091f80a9eb1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -676.85
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 2830532280059829659, guid: 99d5ad8b5e5778042b7ae091f80a9eb1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 336
+      value: -141
       objectReference: {fileID: 0}
     - target: {fileID: 4234801648318384387, guid: 99d5ad8b5e5778042b7ae091f80a9eb1, type: 3}
       propertyPath: m_AnchorMax.x

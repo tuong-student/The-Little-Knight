@@ -53,8 +53,6 @@ public class PlayerScript : MonoBehaviour
     internal bool isCounting;
 
     // Item zone
-    [SerializeField]
-    internal BarFollow timer;
     public Slider timerSlider;
 
     private void Awake()

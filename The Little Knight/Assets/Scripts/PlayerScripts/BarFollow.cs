@@ -23,7 +23,8 @@ public class BarFollow : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        slider.transform.position = followPoint.position + offset;
+        if(slider)
+            slider.transform.position = followPoint.position + offset;
     }
 
 }
